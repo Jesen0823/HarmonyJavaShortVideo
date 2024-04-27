@@ -12,7 +12,7 @@
   "module": {
     "package": "com.jesen.harmony.svd",
     "name": ".MyApplication",
-    "mainAbility": "com.jesen.harmony.svd.MainAbility",
+    "mainAbility": "com.jesen.harmony.svd.WelcomePageAbility",
     "deviceType": [
       "phone"
     ],
@@ -34,13 +34,22 @@
             ]
           }
         ],
-        "name": "com.jesen.harmony.svd.MainAbility",
+        "name": "com.jesen.harmony.svd.WelcomePageAbility",
         "description": "$string:mainability_description",
+        "icon": "$media:icon",
+        "label": "$string:entry_WelcomePageAbility",
+        "launchType": "standard",
+        "orientation": "unspecified",
+        "visible": true,
+        "type": "page"
+      },
+      {
+        "name": "com.jesen.harmony.svd.MainAbility",
+        "description": "$string:welcomepageability_description",
         "icon": "$media:icon",
         "label": "$string:entry_MainAbility",
         "launchType": "standard",
         "orientation": "unspecified",
-        "visible": true,
         "type": "page"
       }
     ]

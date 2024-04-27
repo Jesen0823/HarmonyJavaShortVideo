@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:multiple_lines="true"
+        ohos:text="HarmonyOS Short Video"
+        ohos:text_alignment="center"
+        ohos:text_size="45fp"/>
+
+    <Image
+        ohos:height="90vp"
+        ohos:width="90vp"
+        ohos:top_margin="8vp"
+        ohos:scale_mode="stretch"
+        ohos:image_src="$media:icon"/>
+
+</DirectionalLayout>
