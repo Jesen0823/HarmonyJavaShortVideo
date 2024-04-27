@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical">
+
+    <Image
+        ohos:id="$+id:image_usr_portrait"
+        ohos:width="110vp"
+        ohos:height="110vp"
+        ohos:layout_alignment="horizontal_center"
+        ohos:scale_mode="stretch"
+        ohos:top_margin="100vp"
+        ohos:image_src="$media:ic_portrait"/>
+
+    <TextField
+        ohos:id="$+id:text_field_usr_name"
+        ohos:height="50vp"
+        ohos:width="320vp"
+        ohos:background_element="#f9f9f9"
+        ohos:hint="请输入账号"
+        ohos:hint_color="#9999"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text_size="17fp"
+        ohos:top_margin="76vp"/>
+
+    <TextField
+        ohos:id="$+id:text_field_usr_pwd"
+        ohos:height="50vp"
+        ohos:width="320vp"
+        ohos:background_element="#f9f9f9"
+        ohos:hint="请输入密码"
+        ohos:hint_color="#9999"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text_input_type="pattern_password"
+        ohos:text_size="17fp"
+        ohos:top_margin="10vp"/>
+
+    <Button
+        ohos:id="$+id:button_login"
+        ohos:height="50vp"
+        ohos:width="320vp"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="登录/注册"
+        ohos:text_alignment="center"
+        ohos:text_color="#fefefe"
+        ohos:top_margin="76vp"
+        ohos:background_element="$graphic:background_login_btn"
+        ohos:text_size="24fp"/>
+</DirectionalLayout>

@@ -4,13 +4,11 @@ import com.jesen.harmony.svd.ResourceTable;
 import ohos.aafwk.ability.AbilitySlice;
 import ohos.aafwk.content.Intent;
 
-public class WelcomePageAbilitySlice extends AbilitySlice {
+public class MinePageAbilitySlice extends AbilitySlice {
     @Override
     public void onStart(Intent intent) {
         super.onStart(intent);
-        super.setUIContent(ResourceTable.Layout_ability_welcome);
-
-        present(new RegisterAbilitySlice(),new Intent());
+        super.setUIContent(ResourceTable.Layout_ability_mine);
     }
 
     @Override

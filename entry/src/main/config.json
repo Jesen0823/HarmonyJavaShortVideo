@@ -51,6 +51,24 @@
         "launchType": "standard",
         "orientation": "unspecified",
         "type": "page"
+      },
+      {
+        "name": "com.jesen.harmony.svd.VideoPublishPageAbility",
+        "description": "$string:videopublishpageability_description",
+        "icon": "$media:icon",
+        "label": "$string:entry_VideoPublishPageAbility",
+        "launchType": "standard",
+        "orientation": "unspecified",
+        "type": "page"
+      },
+      {
+        "name": "com.jesen.harmony.svd.MinePageAbility",
+        "description": "$string:minepageability_description",
+        "icon": "$media:icon",
+        "label": "$string:entry_MinePageAbility",
+        "launchType": "standard",
+        "orientation": "unspecified",
+        "type": "page"
       }
     ]
   }

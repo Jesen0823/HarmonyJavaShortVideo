@@ -23,6 +23,30 @@
     {
       "name": "entry_WelcomePageAbility",
       "value": "Short Video"
+    },
+    {
+      "name": "videopublishpageability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "videopublishpageability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_VideoPublishPageAbility",
+      "value": "entry_VideoPublishPageAbility"
+    },
+    {
+      "name": "minepageability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "minepageability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_MinePageAbility",
+      "value": "entry_MinePageAbility"
     }
   ]
 }

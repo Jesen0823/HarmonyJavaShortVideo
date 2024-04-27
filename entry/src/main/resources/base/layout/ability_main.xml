@@ -6,14 +6,46 @@
     ohos:alignment="center"
     ohos:orientation="vertical">
 
-    <Text
-        ohos:id="$+id:text_helloworld"
-        ohos:height="match_content"
-        ohos:width="match_content"
-        ohos:background_element="$graphic:background_ability_main"
-        ohos:layout_alignment="horizontal_center"
-        ohos:text="$string:mainability_HelloWorld"
-        ohos:text_size="40vp"
-        />
+    <DirectionalLayout
+        ohos:id="$+id:layout_navigation_bar"
+        ohos:height="50vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal">
+
+        <Button
+            ohos:id="$+id:button_main"
+            ohos:height="match_parent"
+            ohos:text="首页"
+            ohos:text_size="18fp"
+            ohos:weight="1"/>
+
+        <Button
+            ohos:id="$+id:button_friend"
+            ohos:height="match_parent"
+            ohos:text="朋友"
+            ohos:text_size="18fp"
+            ohos:weight="1"/>
+
+        <Button
+            ohos:id="$+id:button_add"
+            ohos:height="match_parent"
+            ohos:text="+"
+            ohos:text_size="18fp"
+            ohos:weight="1"/>
+
+        <Button
+            ohos:id="$+id:button_msg"
+            ohos:height="match_parent"
+            ohos:text="消息"
+            ohos:text_size="18fp"
+            ohos:weight="1"/>
+
+        <Button
+            ohos:id="$+id:button_mine"
+            ohos:height="match_parent"
+            ohos:text="我"
+            ohos:text_size="18fp"
+            ohos:weight="1"/>
+    </DirectionalLayout>
 
 </DirectionalLayout>
